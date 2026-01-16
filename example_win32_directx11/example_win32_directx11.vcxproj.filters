@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\edited_elements">
+      <UniqueIdentifier>{aedf718d-cec7-4f6e-9aca-07394bb16e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93fd9e11-7df0-402b-ac65-12b8e8309f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dx">
+      <UniqueIdentifier>{6d19ba44-56f7-492f-8bad-d2c154c6ee28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_settings.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_freetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_edited.hpp">
+      <Filter>imgui\edited_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dx\handle.h">
+      <Filter>include\dx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dx\dx.h">
+      <Filter>include\dx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dx\debug.h">
+      <Filter>include\dx</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="DiscordRPC\Discord.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\error\en.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\error\error.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\clzll.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\itoa.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\meta.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\pow10.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\regex.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\stack.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\strtod.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\swap.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\allocators.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\document.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\encodedstream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\encodings.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\filereadstream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\filewritestream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\fwd.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\memorybuffer.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\memorystream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\pointer.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\prettywriter.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\rapidjson.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\reader.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\schema.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\stream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\stringbuffer.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\writer.h" />
+    <ClInclude Include="DiscordSDK\src\backoff.h" />
+    <ClInclude Include="DiscordSDK\src\connection.h" />
+    <ClInclude Include="DiscordSDK\src\discord_register.h" />
+    <ClInclude Include="DiscordSDK\src\discord_rpc.h" />
+    <ClInclude Include="DiscordSDK\src\msg_queue.h" />
+    <ClInclude Include="DiscordSDK\src\rpc_connection.h" />
+    <ClInclude Include="DiscordSDK\src\serialization.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="auth\AuthlyX.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_freetype.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_edited.cpp">
+      <Filter>imgui\edited_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.h" />
+    <ClCompile Include="Encryptor.hpp" />
+    <ClCompile Include="DiscordRPC\Discord.cpp" />
+    <ClCompile Include="DiscordSDK\src\connection_win.cpp" />
+    <ClCompile Include="DiscordSDK\src\discord_register_win.cpp" />
+    <ClCompile Include="DiscordSDK\src\discord_rpc.cpp" />
+    <ClCompile Include="DiscordSDK\src\dllmain.cpp" />
+    <ClCompile Include="DiscordSDK\src\rpc_connection.cpp" />
+    <ClCompile Include="DiscordSDK\src\serialization.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\misc\debuggers\imgui.natstepfilter">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="imgui.ini" />
+    <None Include="build_win32.bat" />
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
